@@ -1,0 +1,84 @@
+alpha value: 0.001
+Number of Iterations = 10
+alpha = 0.001 iterations = 10 and beta = 0.8
+	Performance with learning rate as 0.001 is 388.61709828998397
+alpha = 0.001 iterations = 10 and beta = 0.9
+	Performance with learning rate as 0.001 is 391.33241217909324
+Number of Iterations = 100
+alpha = 0.001 iterations = 100 and beta = 0.8
+	Performance with learning rate as 0.001 is 298.08284262203256
+alpha = 0.001 iterations = 100 and beta = 0.9
+	Performance with learning rate as 0.001 is 301.82810807014476
+Number of Iterations = 1000
+alpha = 0.001 iterations = 1000 and beta = 0.8
+	Performance with learning rate as 0.001 is 73.32201650641814
+alpha = 0.001 iterations = 1000 and beta = 0.9
+	Performance with learning rate as 0.001 is 73.19849155610713
+Number of Iterations = 10000
+alpha = 0.001 iterations = 10000 and beta = 0.8
+	Performance with learning rate as 0.001 is 63.44242590813936
+alpha = 0.001 iterations = 10000 and beta = 0.9
+	Performance with learning rate as 0.001 is 63.44300062158886
+alpha value: 0.01
+Number of Iterations = 10
+alpha = 0.01 iterations = 10 and beta = 0.8
+	Performance with learning rate as 0.01 is 325.4720211095786
+alpha = 0.01 iterations = 10 and beta = 0.9
+	Performance with learning rate as 0.01 is 349.08963935740917
+Number of Iterations = 100
+alpha = 0.01 iterations = 100 and beta = 0.8
+	Performance with learning rate as 0.01 is 72.15414528360483
+alpha = 0.01 iterations = 100 and beta = 0.9
+	Performance with learning rate as 0.01 is 70.80848540752355
+Number of Iterations = 1000
+alpha = 0.01 iterations = 1000 and beta = 0.8
+	Performance with learning rate as 0.01 is 63.446352998872406
+alpha = 0.01 iterations = 1000 and beta = 0.9
+	Performance with learning rate as 0.01 is 63.45217144264099
+Number of Iterations = 10000
+alpha = 0.01 iterations = 10000 and beta = 0.8
+	Performance with learning rate as 0.01 is 60.74515547031423
+alpha = 0.01 iterations = 10000 and beta = 0.9
+	Performance with learning rate as 0.01 is 60.74565699965568
+alpha value: 0.1
+Number of Iterations = 10
+alpha = 0.1 iterations = 10 and beta = 0.8
+	Performance with learning rate as 0.1 is 71.8878096367996
+alpha = 0.1 iterations = 10 and beta = 0.9
+	Performance with learning rate as 0.1 is 108.00072232423258
+Number of Iterations = 100
+alpha = 0.1 iterations = 100 and beta = 0.8
+	Performance with learning rate as 0.1 is 63.4877239416665
+alpha = 0.1 iterations = 100 and beta = 0.9
+	Performance with learning rate as 0.1 is 63.51413957738787
+Number of Iterations = 1000
+alpha = 0.1 iterations = 1000 and beta = 0.8
+	Performance with learning rate as 0.1 is 60.748978740266054
+alpha = 0.1 iterations = 1000 and beta = 0.9
+	Performance with learning rate as 0.1 is 60.75412154850021
+Number of Iterations = 10000
+alpha = 0.1 iterations = 10000 and beta = 0.8
+	Performance with learning rate as 0.1 is 59.536606201772116
+alpha = 0.1 iterations = 10000 and beta = 0.9
+	Performance with learning rate as 0.1 is 59.53672217613895
+alpha value: 1
+Number of Iterations = 10
+alpha = 1 iterations = 10 and beta = 0.8
+	Performance with learning rate as 1 is 96.60813138674524
+alpha = 1 iterations = 10 and beta = 0.9
+	Performance with learning rate as 1 is 73.60733952255246
+Number of Iterations = 100
+alpha = 1 iterations = 100 and beta = 0.8
+	Performance with learning rate as 1 is 60.79123126046317
+alpha = 1 iterations = 100 and beta = 0.9
+	Performance with learning rate as 1 is 60.82637985389068
+Number of Iterations = 1000
+alpha = 1 iterations = 1000 and beta = 0.8
+	Performance with learning rate as 1 is 59.537569328923105
+alpha = 1 iterations = 1000 and beta = 0.9
+	Performance with learning rate as 1 is 59.53876717350692
+Number of Iterations = 10000
+alpha = 1 iterations = 10000 and beta = 0.8
+	Performance with learning rate as 1 is 59.496146290574835
+alpha = 1 iterations = 10000 and beta = 0.9
+	Performance with learning rate as 1 is 59.49613252100198

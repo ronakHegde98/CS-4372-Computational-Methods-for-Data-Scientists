@@ -1,0 +1,23 @@
+Enhanced Gradient Descent
+
+Chosen Algorithm: Gradient Descent with Momentum
+
+
+Explanation of Algorithm:
+  - added momentum term which does not solely rely on the current gradients for gradient descent but rather it takes into account previous gradients when making an update which give it an added advantage of converging faster
+
+
+Best Values:
+  alpha = 1 iterations = 10000 and beta = 0.9
+
+  Model Coefficients:  [ -3.25976934   6.59234951 -17.50602136  -7.20473025   1.65585154
+ -10.53651723  15.61118556  24.65831242]  
+  Mean Squared Error: 59.53876717350692     
+  Mean Absolute Error: 6.600172852382094    
+
+Explanation of Workflow
+Dropped Columns:
+'subject#', 'age', 'sex','test_time', 'total_UPDRS','Jitter(Abs)', 'Jitter:RAP', 'Jitter:PPQ5', 'Jitter:DDP', 'Shimmer', 'Shimmer(dB)', 'Shimmer:APQ3', 'Shimmer:APQ5', 'Shimmer:DDA'
+
+Question: Are you satisfied that you have found the best solution?
+  Yes, I am satisifed
