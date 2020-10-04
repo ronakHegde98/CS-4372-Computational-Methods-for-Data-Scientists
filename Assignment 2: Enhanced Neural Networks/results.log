@@ -1,0 +1,45 @@
+learning_rate:0.00001
+momentum:0.9
+num_iterations:100
+activation:relu
+num_hidden_neurons:20
+training_error: 9505.5
+test_error:2343.5
+
+learning_rate:0.00001
+momentum:0.9
+num_iterations:100
+activation:tanh
+num_hidden_neurons:20
+training_error: 5906.854555626425
+test_error:1448.8844967435866
+
+learning_rate:0.00001
+momentum:0.9
+num_iterations:100
+activation:sigmoid
+num_hidden_neurons:20
+training_error: 6636.674666635695
+test_error:1621.2521924469781
+
+learning_rate:0.00001
+momentum:0.9
+num_iterations:100
+activation:tanh
+num_hidden_neurons:20
+training_error: 6636.674666635695
+test_error:1621.2521924469781
+
+
+learning_rate:0.001
+momentum:0.9
+num_iterations:100
+activation:tanh
+num_hidden_neurons:20
+training_error: 5809.2396774771905
+test_error:1431.2329748602976
+
+
+We did not use training accuracy, because of the binary nature of our output. When we infact used accruacy we got close to
+zero. We decided to use squared error to find out how off our predictions were. Due to the large nature of the datset, we dropped
+many of columns. Overall, this was a great experience in learning how the inside of a neural net works.
