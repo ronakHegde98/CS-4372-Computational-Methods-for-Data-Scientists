@@ -31,9 +31,9 @@ def split_data(data_dir):
     label_counts = Counter([(re.sub(digit_pattern,'', file)) for file in files])
     labels = list(set([label.split('.')[0] for label in label_counts.keys()]))
 
-    train_dir =  os.path.join(data_dir, "training")
+    train_dir =  os.path.join(data_dir, "train")
     val_dir = os.path.join(data_dir, "validation")
-    test_dir = os.path.join(data_dir, "testing")
+    test_dir = os.path.join(data_dir, "test")
     
     try:
         os.mkdir(train_dir)
