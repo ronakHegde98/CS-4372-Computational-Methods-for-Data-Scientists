@@ -1,0 +1,1 @@
+../data/weather_dataset/test/cloudy/cloudy143.jpg

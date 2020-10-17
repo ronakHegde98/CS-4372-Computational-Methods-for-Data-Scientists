@@ -106,7 +106,7 @@ def data_augmentation(train_dir):
     generator = datagen.flow_from_directory(
         train_dir,
         target_size = (150,150),
-        batch_size = 32, 
+        batch_size = 20, 
         class_mode = 'categorical'
     )
     
