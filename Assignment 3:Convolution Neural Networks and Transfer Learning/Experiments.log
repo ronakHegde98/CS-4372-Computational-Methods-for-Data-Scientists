@@ -1,0 +1,36 @@
+Log:
+Experimen 1:
+loss: 0.3410 - acc: 0.8888 - val_loss: 0.3805 - val_acc: 0.8564
+steps_per_epoch=40
+epochs=30
+validation_steps=20
+20 batch size
+
+Experiment 2:
+loss: 0.3551 - acc: 0.8445 - val_loss: 0.3465 - val_acc: 0.8590
+steps_per_epoch=40,
+epochs=15
+validation_steps=20
+batch step 15
+
+Experiment 3:
+loss: 0.3140 - acc: 0.9050 - val_loss: 0.2469 - val_acc: 0.8883
+steps_per_epoch=20,
+epochs=20
+validation_steps=20
+batch size 10
+
+Experiment 4:
+loss: 0.7844 - acc: 0.7467 - val_loss: 1.0532 - val_acc: 0.6406
+steps_per_epoch=20,
+epochs=20,
+validation_steps=20
+batch size 10
+
+Experiment 5:
+loss: 0.6217 - acc: 0.8076 - val_loss: 0.6715 - val_acc: 0.7101
+steps_per_epoch=20,
+epochs=20,
+validation_steps=20
+batch 10
+batch size 20

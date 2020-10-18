@@ -1,1 +1,25 @@
-../data/weather_dataset/test/cloudy/cloudy143.jpg
+../data/weather_dataset/test/shine/shine250.jpg	predicted label: shine	true label: shine
+../data/weather_dataset/test/sunrise/sunrise267.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/cloudy/cloudy203.jpg	predicted label: cloudy	true label: cloudy
+../data/weather_dataset/test/rain/rain69.jpg	predicted label: rain	true label: rain
+../data/weather_dataset/test/sunrise/sunrise137.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/sunrise/sunrise52.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/rain/rain200.jpg	predicted label: rain	true label: rain
+../data/weather_dataset/test/rain/rain113.jpg	predicted label: cloudy	true label: rain
+../data/weather_dataset/test/shine/shine197.jpg	predicted label: shine	true label: shine
+../data/weather_dataset/test/sunrise/sunrise71.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/rain/rain108.jpg	predicted label: rain	true label: rain
+../data/weather_dataset/test/shine/shine203.jpg	predicted label: shine	true label: shine
+../data/weather_dataset/test/sunrise/sunrise176.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/sunrise/sunrise38.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/rain/rain11.jpg	predicted label: rain	true label: rain
+../data/weather_dataset/test/sunrise/sunrise113.jpg	predicted label: cloudy	true label: sunrise
+../data/weather_dataset/test/rain/rain78.jpg	predicted label: rain	true label: rain
+../data/weather_dataset/test/sunrise/sunrise42.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/rain/rain68.jpg	predicted label: shine	true label: rain
+../data/weather_dataset/test/cloudy/cloudy160.jpg	predicted label: cloudy	true label: cloudy
+../data/weather_dataset/test/sunrise/sunrise97.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/sunrise/sunrise249.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/sunrise/sunrise268.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/sunrise/sunrise285.jpg	predicted label: sunrise	true label: sunrise
+../data/weather_dataset/test/shine/shine98.jpg	predicted label: shine	true label: shine

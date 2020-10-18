@@ -125,5 +125,3 @@ if __name__ == "__main__":
     if(not split_completed):
         # print("hello world")
         split_data(dataset_dir)
-    
-    generator = data_augmentation(os.path.join(dataset_dir, 'train'))
