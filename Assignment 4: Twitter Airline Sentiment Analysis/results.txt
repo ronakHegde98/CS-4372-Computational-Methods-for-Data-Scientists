@@ -1,0 +1,22 @@
+   alpha  fit_prior  accuracy
+0   0.81      False      0.75
+1   0.05      False      0.73
+2   0.02      False      0.73
+3   0.59      False      0.75
+4   0.25      False      0.75
+
+Optimal alpha: 0.81
+Optimal fit prior: False
+Accuracy: 75.0
+
+Average Sentiment per Airline
+                airline_sentiment
+airline                          
+American                 0.411381
+Delta                    0.815032
+Southwest                0.745455
+US Airways               0.315482
+United                   0.439822
+Virgin America           0.942460
+
+Airline with most positive sentiment: Virgin America
