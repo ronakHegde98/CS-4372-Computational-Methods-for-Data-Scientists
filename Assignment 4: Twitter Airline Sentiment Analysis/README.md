@@ -7,4 +7,7 @@ Goal: Write Multinomial Naive Bayes to detect sentiment on Twitter Airline Datas
 ## Official dataset: https://www.kaggle.com/crowdflower/twitter-airline-sentiment
 
 To run project:
-  python3 mnb.py file_location 
+  1. change working directory to src [cd src]
+  2. run: python3 mnb.py [path to file]
+
+** Please view our results.txt to view our final results and answer to question 8 **
