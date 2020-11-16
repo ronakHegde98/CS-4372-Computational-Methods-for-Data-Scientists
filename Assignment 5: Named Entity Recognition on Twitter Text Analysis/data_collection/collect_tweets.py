@@ -1,20 +1,20 @@
-"""
-
+""" 
 
 """
 
 from config.creds import authenticate
-import pprint
-import time
 import preprocessor as p
-import json
 
 
-API = authenticate("creds.ini")
-results = API.search(q = "USA -filter:retweets",lang="en", result_type = "recent", count = 50)
+def twitter_searcher(topic, twitter_filter, language, count, result_type, pull_date): 
+  API = authenticate("creds.ini")
+  query_string = f"{topic} -filter:{twitter_filter}"
+  results = API.search(q = query_string,lang=language, result_type = result_type, count = count)
 
-print(type(results))
-print(type(results[0]))
+  #get only the 
+  tweets = [p.clean(result.text) for result in results]
+  tweets = list(set(tweets))
 
-for result in results:
-  print(p.clean(result.text))
+  return tweets
+
+

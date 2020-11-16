@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %} NER Output {% endblock %}
+
+{% block content %}
+  {% for result in results %}
+    <p> {{result}} </p>
+  {% endfor %}
+{% endblock %}
