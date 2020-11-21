@@ -6,4 +6,8 @@ Goal: Scape Twitter Data and perform  Named Entity Recognition
 ## To run program:
   python3 ner.py 
 
+
+## Results and Analysis
+results.txt
+
 <img src="static/images/website.PNG" width="100">

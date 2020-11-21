@@ -1,0 +1,54 @@
+Run #1 
+ - time: 10 seconds for 1 minute
+ - query string: USA 
+ - language: english
+ - count: 5 
+ - date: 11/20/2020
+ - type: retweets
+                 
+  {'USA': 16, 'Trump': 5, 'U.S.': 5, 'Louisiana': 5, 'LSU': 5}
+
+
+Run #2
+ - time: 30 seconds for 2 minutes
+ - query string: USA
+ - language: english
+ - count: 10
+ - date: 11/20/2020
+ - type: retweets
+  {'USA': 11, 'Trump': 4, 'U.S.': 4, 'Louisiana': 3, 'LSU': 3}
+
+Run #3: 
+ - time: 50 seconds for 4mins 10 seconds
+ - query string: USA
+ - language: english
+ - count: 100
+ - date: 11/20/2020
+ - type: retweets
+ {'TodayTamara': 1, 'Ferguson': 1, 'Malloch': 1, 'USA': 43, 'Network': 1, 'AEW': 1, 'Louisiana': 6, 'LSU': 6, 'Cuenca': 1, 'UK': 2, 'U.S.': 6, 'Trump': 9, 'FFS': 1, 'Murphy': 1, 'Mxico': 1, 'mitch': 1, 'McConnell': 1, 'Michigan': 1, 'House': 1, 'Lee': 1, 'Chatfield': 1, 'Senate': 1, 'Mike': 1, 'Shirkey': 1, 'Biden': 1, 'Russia': 1}
+
+
+Run #4: 
+ - time: 45 seconds for 3 minutes
+ - query string: USA
+ - language: english
+ - count: 125
+ - date: 11/20/2020
+ - type: retweets
+ {'USA': 40, 'Malloch': 1, 'Mxico': 1, 'Trump': 8, 'Murphy': 1, 'TodayTamara': 1, 'Ferguson': 1, 'mitch': 1, 'McConnell': 1, 'Louisiana': 5, 'LSU': 5, 'Cuenca': 1, 'Biden': 1, 'UK': 2, 'U.S.': 5, 'Michigan': 1, 'House': 1, 'Lee': 1, 'Chatfield': 1, 'Senate': 1, 'Mike': 1, 'Shirkey': 1, 'FFS': 1, 'Network': 1, 'AEW': 1, 'Russia': 1}
+
+
+ Run #5: 
+ - time: 5 seconds for 1 minute
+ - query string: USA
+ - language: english
+ - count: 100
+ - date: 11/20/2020
+ - type: retweets
+{'USA': 64, 'FFS': 1, 'Cuenca': 1, 'Trump': 16, 'Louisiana': 13, 'LSU': 13, 'U.S.': 13, 'Network': 1, 'AEW': 1, 'TodayTamara': 1, 'Ferguson': 1, 'mitch': 1, 'McConnell': 1, 'Biden': 1, 'UK': 2, 'Russia': 1, 'Murphy': 1, 'Michigan': 1, 'House': 1, 'Lee': 1, 'Chatfield': 1, 'Senate': 1, 'Mike': 1, 'Shirkey': 1, 'Mxico': 1, 'Malloch': 1}
+
+
+Analysis:
+For our program we focused on retweets related to "USA" as our filter with different time values. Based on our results, we noticed Donald Trump had many mentioned with a lot of tweets relating to the voter fraud 
+allegations. Ironically, we did not see many tweets about President-elect Biden. As the time interval increase, we noticed that many other politicians, states, and some countries started to show up. We were slighly confused about why so many tweets were about LSU and Lousiana. After a quick google search, we 
+found out that there is an LSU football game tomorrow. Other terms used in politics like the Senate and House were mentioned with the word the USA.

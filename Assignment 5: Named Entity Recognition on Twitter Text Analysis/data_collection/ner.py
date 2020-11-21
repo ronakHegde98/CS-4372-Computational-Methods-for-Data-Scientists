@@ -40,11 +40,12 @@ def named_entity_recognition(tweets):
         print(results)
         print("\n")
 
-    
     return results
 
 
 def twitter_searcher(topic, twitter_filter, language, count, result_type, pull_date):
+
+    
     global numIterations
 
     print(f'Running Iteration # {numIterations+1}')
@@ -66,9 +67,9 @@ def scheduleIteration(run_interval, total_iterations):
 
     global numIterations 
 
-    twitter_searcher("NBA", "retweets","en", 5, "recent", "2020-11-20")
+    twitter_searcher("USA", "retweets","en", 100, "recent", "2020-11-20")
 
-    schedule.every(run_interval).minutes.do(twitter_searcher, "NBA", "retweets",
+    schedule.every(run_interval).seconds.do(twitter_searcher, "USA", "retweets",
     "en", 20, "recent", "2020-11-20")
 
     while(numIterations < total_iterations):
@@ -76,4 +77,6 @@ def scheduleIteration(run_interval, total_iterations):
         time.sleep(1)
 
 
-scheduleIteration(1,2)
+
+
+scheduleIteration(5,12) 
