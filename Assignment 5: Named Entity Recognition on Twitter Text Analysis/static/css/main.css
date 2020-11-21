@@ -6,3 +6,33 @@ form {
 .jumbotron{
   background-color: rgb(243, 237, 237);
 }
+
+.pricing .card{
+  text-align:center;
+  border: 2px solid black;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.pricing .card .card-title{
+  font-size: larger;
+}
+
+.pricing .card .card-body hr{
+  background-color: white;;
+}
+
+
+.pricing .card ul{
+  padding-top: 10px;
+  font-size: larger;
+  list-style-type: none;
+  padding-right: 29px;
+}
+
+.pricing .card li{
+  padding-bottom: 10px;
+}
+

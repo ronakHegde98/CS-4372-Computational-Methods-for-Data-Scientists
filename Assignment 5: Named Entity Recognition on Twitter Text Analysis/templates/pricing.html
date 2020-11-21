@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %} Pricing {% endblock %}
+
+
+{% block content %}
+
+  <h2 class="h1-responsive font-weight-bold text-center my-4" style =" padding-top: 50px;padding-bottom: 20px;">Pricing</h2>
+
+  <section class="pricing"> 
+    <div class="container" style="padding-top: 10px;">
+      <div class="row">
+        <div class="col-lg-4">
+          <!-- Free Tier -->
+          <div class="card bg-primary text-white mb-3" style="max-width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">FREE</h5>
+              <h6 class="card-title">$0/month</h6>
+              <hr>
+              <ul>
+                <li> English Support </li>
+                <li> 10 API Calls per day </li>
+                <li> Community Access </li>
+                <li class="text-muted"> Max Pulls: 5 </li>
+                <li class="text-muted"> Analytics Dashboard </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <!--  Tier -->
+          <div class="card bg-primary text-white mb-3" style="max-width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+              <h6 class="card-title ">$9/month</h6>
+              <hr>
+              <ul>
+                <li> English Support </li>
+                <li> 10 API Calls per day </li>
+                <li > Community Access </li>
+                <li > Max Pulls: 20 </li>
+                <li class="text-muted"> Analytics Dashboard </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <!-- Free Tier -->
+          <div class="card bg-primary text-white mb-3" style="max-width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center">PRO</h5>
+              <h6 class="card-title">$12/month</h6>
+              <hr>
+              <ul>
+                <li> Multi-Language Support </li>
+                <li> 100 API Calls per day </li>
+                <li> Community Access </li>
+                <li> Unlimited Pulls </li>
+                <li> Analytics Dashboard </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

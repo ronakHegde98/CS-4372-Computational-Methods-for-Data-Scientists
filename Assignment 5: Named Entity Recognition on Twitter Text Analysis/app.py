@@ -1,9 +1,20 @@
 from flask import Flask, redirect, url_for, render_template, request
 import datetime as dt
 from data_collection.collect_tweets import twitter_searcher
-
+from flask_sqlalchemy import SQLAlchemy
+# from data_collection.ner import named_entity_recognition
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///tweets.db'
+
+#Initialize database
+db = SQLAlchemy(app)
+
+#create db model
+class Tweets(db.Model):
+  id = db.Column(db.Integer, primary_key = True)
+  # text = db.Column
+
 
 @app.route("/home/", methods = ['POST', 'GET'])
 @app.route("/", methods = ['POST', 'GET'])
@@ -21,8 +32,15 @@ def home():
     result_type = request.form['resultType']
     pull_date = request.form['date']
 
+
+    print(dict(request.form))
     # retrieve tweets with required parameters 
     results = twitter_searcher(topic, twitter_filter, language, count, result_type, pull_date)
+
+    # ner_dict = named_entity_recognition(results)
+    # print(ner_dict)
+
+
     return render_template("results.html", results = results)
 
   else:
@@ -38,7 +56,7 @@ def about():
 
 @app.route("/pricing/")
 def pricing():
-  return redirect(url_for("home"))
+  return render_template("pricing.html")
 
 
 @app.route("/contact/", methods = ['POST', 'GET'])
